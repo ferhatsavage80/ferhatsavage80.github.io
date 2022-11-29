@@ -1,0 +1,43 @@
+body{
+	background-color: black;
+}
+.yazı{
+	padding-left: 20px;
+	color: pink;
+	margin-left: 10px;
+	line-height: 100px;
+	font-size: 40px;
+}
+.kutu{
+	text-align: center;
+	line-height: 50px;
+	background-color: white;
+	width: 500px;
+	height: 450px;
+	margin-top: 150px;
+	margin-left: 750px;
+	border-radius: 50px;
+}
+.menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+}
+.menu ul a{
+	display: block;
+	width: 150px;
+	height: 40px;
+	float: right;
+	margin-top: 10px;
+	background-color: black;
+	color: white;
+	margin-right: 2px;
+	text-decoration: none;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+    transition: all 2s;
+}
+.menu ul a:hover{
+  background-color: darkgray;
+}
